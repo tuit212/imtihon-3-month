@@ -1,0 +1,180 @@
+
+
+.header{
+    border: 1px solid #000;
+    max-width: 301px;
+    width: 36%;
+    margin-top: 20px;
+    padding: 15px 10px 30px 20px;
+    text-align: center;
+    height: 500px;
+
+    &__title{
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    &__form{
+        margin-top: 20px;
+
+        &-input{
+            width: 100%;
+            padding: 3px 10px;
+            margin-bottom: 8px;
+            outline: none;
+            border: 1px solid #000;
+
+            &::placeholder{
+                font-size: 14px;
+                color: #000;
+            }
+
+            &:valid{
+                font-size: 14px;
+                color: #999;
+            }
+
+        }
+
+        &-span{
+            font-size: 16px;
+            font-weight: 600;
+
+        }
+
+        &-Dough{
+            width: 47%;
+            text-align: center;
+            margin-bottom: 15px;
+            outline: none;
+
+            & > option {
+                font-size: 14px;
+                padding: 5px 0;
+                background-color: #999;
+                color: #000;
+            }
+        }
+
+        &-size{
+            width: 100%;
+            margin-bottom: 30px;
+            outline: none;
+
+            & > option {
+                font-size: 15px;
+                padding: 5px 0;
+                background-color: #999;
+                color: #000;
+            }
+        }
+
+        &-pizza{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            & > h3 {
+                font-size: 16px;
+                font-weight: 500;
+                width: 100%;
+                text-align: left;
+            }
+
+            & > div {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                margin-top: 13px;
+
+                & > label {
+                    font-size: 15px;
+                    padding-left: 3px;
+                }
+            }
+        }
+
+        &-add{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+
+            & > h3 {
+                font-size: 16px;
+                font-weight: 500;
+                width: 100%;
+                text-align: left;
+            }
+
+            & > div {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                margin-top: 13px;
+
+                & > label {
+                    font-size: 15px;
+                    padding-left: 3px;
+                }
+            }
+        }
+
+        &-button{
+            width: 50%;
+            margin-top: 20px;
+            border: 1px solid #000;
+            background-color: transparent;
+            font-size: 14px;
+            padding: 3px 0;
+            cursor: pointer;
+        }
+    }
+}
+
+
+// card 
+
+.cards{
+    width: 60%;
+    margin-left: 25px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    max-width: 350px;
+    width: 100%;
+    border: 1px solid #000;
+    margin-top: 20px;
+    height: 320px;
+
+    & > h2 {
+        padding: 10px 0  0 20px;
+    }
+
+    & > span{
+        display: inline-block;
+        width: 100%;
+        height: 1px;
+        background-color: #000;
+    }
+
+    &__header{
+        padding: 10px 20px;
+    }
+
+    &__body{
+        padding: 10px 20px;
+    }
+
+    &__footer{
+        padding: 10px 20px;
+        text-align: end;
+    }
+}

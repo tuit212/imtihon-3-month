@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Pizza</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header">
+                <h2 class="header__title">Pizza order</h2>
+                <form action="" class="header__form" id="form">
+                    <input 
+                        type="text" 
+                        placeholder="User name" 
+                        class="header__form-input"
+                         id="names">
+                    <input 
+                        type="tel" 
+                        name="tel"
+                        id="tel" 
+                        placeholder="Phone number" 
+                        class="header__form-input" >
+                    <input 
+                        type="email" 
+                        name="email" 
+                        id="email" 
+                        placeholder="User addres" 
+                        class="header__form-input">
+                    <span class="header__form-span">Dough thickness:</span>
+                    <select name="select2" id="select1" class="header__form-Dough">
+                        <option value="none">none</option>
+                        <option value="Thin">Thin</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Thick">Thick</option>
+                    </select>
+                    <select name="select2" id="select2" class="header__form-size">
+                        <option value="Size">Size</option>
+                        <option value="25sm">25sm</option>
+                        <option value="30sm">30sm</option>
+                        <option value="35sm">35sm</option>
+                    </select>
+                    <div class="header__form-pizza">
+                        <h3>On Pizza:</h3>
+                        <div>
+                            <input type="checkbox" name="product" value="Tomato" id="Tomato">
+                            <label for="Tomato">Tomato</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="product" value="TurkeyMeat" id="TurkeyMeat">
+                            <label for="TurkeyMeat">Turkey Meat</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="product" value="Olive" id="Olive">
+                            <label for="Olive">Olive</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="product" value="PickledCucumber" id="PickledCucumber">
+                            <label for="PickledCucumber">Pickled cucumber</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="product" value="Mushroom" id="Mushroom">
+                            <label for="Mushroom">Mushroom</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="product" value="HorseMeat" id="HorseMeat">
+                            <label for="HorseMeat">Horse meat</label>
+                        </div>
+                    </div>
+                    <div class="header__form-add">
+                        <h3>Add:</h3>
+                        <div>
+                            <input type="checkbox" name="checkbox" id="pepper" value="pepper">
+                            <label for="checkbox">Pepper</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="checkbox" value="sausage" id="sausages">
+                            <label for="checkbox">Sausages</label>
+                        </div>
+                    </div>
+                </form>
+                <button class="header__form-button" id="save">Save</button>
+            </div>
+
+            <div class="cards" id="cards">
+                <!-- <div class="card">
+                    <h2>Order 1</h2>
+                    <div class="card__header">
+                        <ul>
+                            <li>Name: <span>  Anvarov Asadbek</span></li>
+                            <li>Phone: <span> +998 91 298 98 08</span></li>
+                            <li>Name: <span>  Tashkent</span></li>
+                        </ul>
+                    </div>
+                    <span></span>
+                    <div class="card__body">
+                        <ul>
+                            <li>Dough thickness: <span> Medium </span></li>
+                            <li>Size: <span> 25sm</span></li>
+                            <li>On pizza: <span>  Tomato </span></li>
+                            <li>Add: <span> Pepper</span></li>
+                        </ul>
+                    </div>
+                    <span></span>
+                    <div class="card__footer">
+                        <ul>
+                            <li>Total: <span>40$</span></li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
